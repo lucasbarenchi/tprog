@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ ! -d ~/.UyTube ]
+then
+    mkdir ~/.UyTube
+fi
+
+if [ ! -e ~/.UyTube/config.properties ]
+then
+    echo "ip=pcunix113.fing.edu.uy" > ~/.UyTube/config.properties
+    echo "port=6969" >> ~/.UyTube/config.properties
+fi
+
+java -cp ./target/servidor.jar com.Application
+

@@ -1,0 +1,7 @@
+/EntityNotFoundException.class
+<<<<<<< HEAD
+=======
+/KeyAlreadyInUseException.class
+>>>>>>> master
+/DefaultPlaylistException.class
+/PrivacyException.class

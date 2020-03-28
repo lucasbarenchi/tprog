@@ -1,0 +1,16 @@
+#!/bin/bash
+#!/bin/bash
+
+if [ ! -d ~/.UyTube ]
+then
+    mkdir ~/.UyTube
+fi
+
+if [ ! -e ~/.UyTube/config.properties ]
+then
+    echo "ip=pcunix113.fing.edu.uy" > ~/.UyTube/config.properties
+    echo "port=6969" >> ~/.UyTube/config.properties
+fi
+
+bash ~/apache-tomcat-8.5.34/bin/shutdown.sh
+bash ~/apache-tomcat-8.5.34/bin/startup.sh

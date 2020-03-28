@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mvn package
+cp ./target/web.war ~/apache-tomcat-8.5.34/webapps/

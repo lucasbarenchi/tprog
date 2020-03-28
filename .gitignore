@@ -1,0 +1,15 @@
+.DS_Store
+*.DS_Store
+*.idea
+.idea
+out/*
+/bin/
+/out
+.metadata/
+bin/
+.classpath
+.project
+/bin/
+*.jar
+/build/
+/.recommenders/
